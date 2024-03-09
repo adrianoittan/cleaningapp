@@ -1,5 +1,8 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
-
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import poli from '../assets/poli.jpg';
+import press from '../assets/press.jpg';
+import can from '../assets/can.webp';
+import logo from '../assets/logo.svg';
 export const navLinks = [
   {
     id: "home",
@@ -49,22 +52,23 @@ export const feedback = [
     title: "Floor Polishing",
     content:
       "Our expert team utilizes advanced techniques and high-quality products to rejuvenate and protect your floors, leaving them looking sleek, smooth, and impeccable..",
-  },
+      img: poli,
+    },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Revitalize your property's allure with our expert pressure washing services! Say goodbye to dirt, grime, and unsightly stains, as we restore your surfaces to their pristine best.",
     name: "Steve Mark",
     title: "Pressure Washing",
-    img: people02,
+    img: press,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Elevate cleanliness! Banish odors and unsanitary conditions with ease as our dedicated team meticulously sanitizes and deodorizes your bins.",
     name: "Kenn Gallagher",
     title: "Trash Can Cleaning",
-    img: people03,
+    img: can,
   },
 ];
 
@@ -178,18 +182,7 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: logo,
   },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+  
 ];

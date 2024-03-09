@@ -9,9 +9,9 @@ const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
   
     <div className={layout.sectionImgReverse} >
+      
     <img src={deepcleaning} alt="billing" className="w-[80%] h-[35%] relative z-[5] my-9 rounded-xl shadow-sm" />
-    <br></br>
-    <br></br>
+  
 
       <img src={vacuum} alt="billing" className="w-[80%] h-[35%] relative z-[5] my-14 rounded-xl shadow-sm"/>
       <img src={movingout} alt="billing" className="w-[80%] h-[35%] relative z-[5] my-5 rounded-xl shadow-sm" />
@@ -57,6 +57,8 @@ const Billing = () => (
       🧼 Disinfection and Sanitization
       <br></br>
       <br></br>
+      <br></br>
+      
       </p>
     <br></br>
       <h2 className={styles.heading2}>
@@ -82,6 +84,10 @@ const Billing = () => (
       <br></br>
       <br></br>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      
       <h2 className={styles.heading2}>
         Move Out Cleaning <br className="sm:block hidden" /> 
       </h2>
