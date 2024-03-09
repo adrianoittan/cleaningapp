@@ -1,14 +1,20 @@
-import { apple, bill, google } from "../assets";
+import { apple, bill, google} from "../assets";
 import styles, { layout } from "../style";
+import deepcleaning from '../assets/deepcleaning.webp';
+import vacuum from '../assets/vacuum.jpg'
+import movingout from '../assets/movingout.webp';
 
 const Billing = () => (
+
   <section id="product" className={layout.sectionReverse}>
   
     <div className={layout.sectionImgReverse} >
+    <img src={deepcleaning} alt="billing" className="w-[80%] h-[35%] relative z-[5] my-9 rounded-xl shadow-sm" />
+    <br></br>
+    <br></br>
 
-      <img src={bill} alt="billing" className="w-[80%] h-[35%] relative z-[5] mt-6" />
-      <img src={bill} alt="billing" className="w-[80%] h-[35%] relative z-[5] mt-6" />
-      <img src={bill} alt="billing" className="w-[80%] h-[35%] relative z-[5] mt-6" />
+      <img src={vacuum} alt="billing" className="w-[80%] h-[35%] relative z-[5] my-14 rounded-xl shadow-sm"/>
+      <img src={movingout} alt="billing" className="w-[80%] h-[35%] relative z-[5] my-5 rounded-xl shadow-sm" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
@@ -49,6 +55,8 @@ const Billing = () => (
       </p>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       🧼 Disinfection and Sanitization
+      <br></br>
+      <br></br>
       </p>
     <br></br>
       <h2 className={styles.heading2}>
@@ -70,6 +78,10 @@ const Billing = () => (
       🗑️ Trash Removal and Disposal
       </p>
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <h2 className={styles.heading2}>
         Move Out Cleaning <br className="sm:block hidden" /> 
       </h2>
@@ -85,10 +97,7 @@ const Billing = () => (
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       🍽️ Kitchen Cleaning: Clean exterior and interior of all kitchen appliances. Wipe down all kitchen countertops, backplashes, and cabinet doors.
       </p>
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" />
-        <img src={google} alt="google_play" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" />
-      </div>
+    
     </div>
   </section>
 );

@@ -46,6 +46,7 @@ export const features = [
 export const feedback = [
   {
     id: "feedback-1",
+    title: "Floor Polishing",
     content:
       "Our expert team utilizes advanced techniques and high-quality products to rejuvenate and protect your floors, leaving them looking sleek, smooth, and impeccable..",
   },
@@ -54,7 +55,7 @@ export const feedback = [
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Pressure Washing",
     img: people02,
   },
   {
@@ -62,7 +63,7 @@ export const feedback = [
     content:
       "It is usually people in the money business, finance, and international trade that are really rich.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Trash Can Cleaning",
     img: people03,
   },
 ];
